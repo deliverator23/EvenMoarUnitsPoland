@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_AZTEC1" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_AZTEC2" Kind="KIND_UNIT"/>
+	</Types>
+	<Units>
+		<Row UnitType="UNIT_AZTEC1" BaseMoves="100" Cost="1" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="Jaguar Warrior"
+			 Description="Jaguar Warrior" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+			 Maintenance="1" Combat="66"/>
+
+		<Row UnitType="UNIT_AZTEC2" BaseMoves="100" Cost="1" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="Aztec 2"
+			 Description="Aztec 2" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+			 Maintenance="1" Combat="66"/>
+	</Units>
+</GameData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="EvenMoarUnitsPoland"/>
+        <id text="c5b55307-24bf-4952-ad64-5708fd67faec"/>
+    </ID>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

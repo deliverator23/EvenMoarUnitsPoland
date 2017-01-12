@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c5b55307-24bf-4952-ad64-5708fd67faec">
+    <Properties>
+        <Name>LOC_EVEN_MOAR_UNITS_POLAND_NAME</Name>
+        <Teaser>LOC_EVEN_MOAR_UNITS_POLAND_TEASER</Teaser>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_EVEN_MOAR_UNITS_POLAND_NAME">
+            <en_US>Even Moar Units! Poland</en_US>
+        </Text>
+        <Text id="LOC_EVEN_MOAR_UNITS_POLAND_TEASER">
+            <en_US>Even Moar Units! Poland</en_US>
+        </Text>        
+    </LocalizedText>  
+	<Dependencies>
+		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="PolandDLC" />
+	</Dependencies>
+    <Files>
+        <File>Even_MOAR_Units_Poland.dep</File>
+        <File>Data/Even_MOAR_Units_Poland_Data.xml</File>
+		<File>Data/Even_MOAR_Units_Poland_Data.sql</File>
+    </Files>    
+    <Components>
+        <UpdateDatabase id="MOAR_Poland_UpdateDatabase">
+            <Items>
+                <File>Data/Even_MOAR_Units_Poland_Data.xml</File>
+				<File>Data/Even_MOAR_Units_Poland_Data.sql</File>
+            </Items>
+        </UpdateDatabase>
+        <ModArt id="MOAR_Poland_ModArt">
+            <Items>
+                <File>Even_MOAR_Units_Poland.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>
