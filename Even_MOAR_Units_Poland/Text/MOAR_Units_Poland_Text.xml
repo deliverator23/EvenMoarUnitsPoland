@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_NAME" Language="en_US">
+			<Text>Chosen Infantry</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UHLAN_NAME" Language="en_US">
+			<Text>Uhlan</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UHLAN_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

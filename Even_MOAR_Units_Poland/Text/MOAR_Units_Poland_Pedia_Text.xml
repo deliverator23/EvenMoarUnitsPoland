@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_1">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_1">
+			<Text></Text>
+		</Row>
+	</BaseGameText>
+</GameData>

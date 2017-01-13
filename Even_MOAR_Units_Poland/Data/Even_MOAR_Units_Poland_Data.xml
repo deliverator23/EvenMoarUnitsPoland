@@ -1,18 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="UNIT_AZTEC1" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_AZTEC2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CHOSEN_INFANTRY" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_UHLAN" Kind="KIND_UNIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_CHOSEN_INFANTRY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_UHLAN" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_CHOSEN_INFANTRY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UHLAN" Kind="KIND_ABILITY"/>
 	</Types>
 	<Units>
-		<Row UnitType="UNIT_AZTEC1" BaseMoves="100" Cost="1" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
-			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="Jaguar Warrior"
-			 Description="Jaguar Warrior" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+		<Row UnitType="UNIT_CHOSEN_INFANTRY" BaseMoves="100" Cost="1" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CHOSEN_INFANTRY_NAME"
+			 Description="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
 			 Maintenance="1" Combat="66"/>
 
-		<Row UnitType="UNIT_AZTEC2" BaseMoves="100" Cost="1" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
-			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="Aztec 2"
-			 Description="Aztec 2" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+		<Row UnitType="UNIT_UHLAN" BaseMoves="100" Cost="1" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_UHLAN_NAME"
+			 Description="LOC_UNIT_UHLAN_DESCRIPTION"  PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
 			 Maintenance="1" Combat="66"/>
 	</Units>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_POLAND" TraitType="TRAIT_CIVILIZATION_UNIT_CHOSEN_INFANTRY"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" TraitType="TRAIT_CIVILIZATION_UNIT_UHLAN"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_CHOSEN_INFANTRY" Name="LOC_UNIT_CHOSEN_INFANTRY_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_UHLAN" Name="LOC_UNIT_UHLAN_NAME"/>
+	</Traits>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_CHOSEN_INFANTRY" ReplacesUnitType="UNIT_MUSKETMAN"/>
+		<Row CivUniqueUnitType="UNIT_UHLAN" ReplacesUnitType="UNIT_CAVALRY"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Row Unit="UNIT_CHOSEN_INFANTRY" UpgradeUnit="UNIT_RIFLEMAN"/>
+		<Row Unit="UNIT_UHLAN" UpgradeUnit="UNIT_HELICOPTER"/>
+	</UnitUpgrades>
+	<UnitAIInfos>
+		<Row UnitType="UNIT_CHOSEN_INFANTRY" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CHOSEN_INFANTRY" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_CHOSEN_INFANTRY" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_CHOSEN_INFANTRY" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_UHLAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_UHLAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_UHLAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_UHLAN" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_UHLAN" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAIInfos>
+	<Tags>
+		<Row Tag="CLASS_CHOSEN_INFANTRY" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_UHLAN" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_CHOSEN_INFANTRY" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_CHOSEN_INFANTRY" Tag="CLASS_CHOSEN_INFANTRY"/>
+		<Row Type="UNIT_UHLAN" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_UHLAN" Tag="CLASS_UHLAN"/>
+		<Row Type="ABILITY_CHOSEN_INFANTRY" Tag="CLASS_CHOSEN_INFANTRY"/>
+		<Row Type="ABILITY_UHLAN" Tag="CLASS_UHLAN"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_CHOSEN_INFANTRY" Name="LOC_ABILITY_CHOSEN_INFANTRY" Description="LOC_ABILITY_CHOSEN_INFANTRY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UHLAN" Name="LOC_ABILITY_UHLAN" Description="LOC_ABILITY_UHLAN_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+<!--	<Row>
+		<UnitAbilityType>ABILITY_CHOSEN_INFANTRY</UnitAbilityType>
+		<ModifierId>UNIT_STRONG_WHEN_ATTACKING</ModifierId>
+	</Row>
+	<Row>
+		<UnitAbilityType>ABILITY_UHLAN</UnitAbilityType>
+		<ModifierId>UNIT_WEAK_WHEN_DEFENDING</ModifierId>
+	</Row>-->
+	</UnitAbilityModifiers>
 </GameData>

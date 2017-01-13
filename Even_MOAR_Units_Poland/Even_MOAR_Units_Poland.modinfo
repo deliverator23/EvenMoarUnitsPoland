@@ -14,19 +14,67 @@
     </LocalizedText>  
 	<Dependencies>
 		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="PolandDLC" />
+        <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MOARUnits" />
 	</Dependencies>
     <Files>
         <File>Even_MOAR_Units_Poland.dep</File>
         <File>Data/Even_MOAR_Units_Poland_Data.xml</File>
 		<File>Data/Even_MOAR_Units_Poland_Data.sql</File>
-    </Files>    
+        <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
+        <File>Text/MOAR_Units_Poland_Pedia_Text.xml</File>
+        <File>Text/MOAR_Units_Poland_Text.xml</File>
+        <File>Art/Icons/MOARUnitsFlagsPOLAND_22.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsPOLAND_32.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsPOLAND_38.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsPOLAND_50.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsPOLAND_80.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsPOLAND_256.dds</File>
+    </Files>
+    <Settings>
+        <Icons id="MOAR_Poland_ICON_SETTING">
+            <Items>
+                <File>Config/MOAR_Units_Poland_Icons_Config.xml</File>
+            </Items>
+        </Icons>
+        <Custom id="MOAR_Poland_SETTING">
+            <Items>
+                <File>Config/MOAR_Units_Poland_Config.xml</File>
+            </Items>
+        </Custom>
+        <LocalizedText id="MOAR_Poland_SETTING_TEXT">
+            <Items>
+                <File>Text/MOAR_Units_Poland_Text.xml</File>
+            </Items>
+        </LocalizedText>
+    </Settings>
     <Components>
+        <ImportFiles id="MOAR_Poland_FileImport">
+            <Items>
+                <File>Art/Icons/MOARUnitsFlagsPOLAND_22.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsPOLAND_32.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsPOLAND_38.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsPOLAND_50.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsPOLAND_80.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsPOLAND_256.dds</File>
+            </Items>
+        </ImportFiles>
         <UpdateDatabase id="MOAR_Poland_UpdateDatabase">
             <Items>
                 <File>Data/Even_MOAR_Units_Poland_Data.xml</File>
 				<File>Data/Even_MOAR_Units_Poland_Data.sql</File>
             </Items>
         </UpdateDatabase>
+        <LocalizedText id="MOAR_Poland_LocalizedText">
+            <Items>
+                <File>Text/MOAR_Units_Poland_Pedia_Text.xml</File>
+                <File>Text/MOAR_Units_Poland_Text.xml</File>
+            </Items>
+        </LocalizedText>
+        <Icons id="MOAR_Poland_Icons">
+            <Items>
+                <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
+            </Items>
+        </Icons>
         <ModArt id="MOAR_Poland_ModArt">
             <Items>
                 <File>Even_MOAR_Units_Poland.dep</File>
