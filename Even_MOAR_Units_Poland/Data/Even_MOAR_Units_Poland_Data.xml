@@ -29,8 +29,8 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_UHLAN" Name="LOC_UNIT_UHLAN_NAME"/>
 	</Traits>
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_CHOSEN_INFANTRY" ReplacesUnitType="UNIT_CHOSEN_INFANTRY"/>
-		<Row CivUniqueUnitType="UNIT_UHLAN" ReplacesUnitType="UNIT_UHLAN"/>
+		<Row CivUniqueUnitType="UNIT_CHOSEN_INFANTRY" ReplacesUnitType="UNIT_MUSKETMAN"/>
+		<Row CivUniqueUnitType="UNIT_UHLAN" ReplacesUnitType="UNIT_CAVALRY"/>
 	</UnitReplaces>
 	<UnitUpgrades>
 		<Row Unit="UNIT_CHOSEN_INFANTRY" UpgradeUnit="UNIT_RIFLEMAN"/>

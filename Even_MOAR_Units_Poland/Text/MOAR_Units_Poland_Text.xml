@@ -5,13 +5,13 @@
 			<Text>Chosen Infantry</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION" Language="en_US">
-			<Text></Text>
+			<Text>Polish unique Melee unit that replaces Musketman. Heals an additional 10 points per turn.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UHLAN_NAME" Language="en_US">
 			<Text>Uhlan</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UHLAN_DESCRIPTION" Language="en_US">
-			<Text></Text>
+			<Text>Polish unique Light Cavalry unit that replaces Cavalry. +100% flanking bonus.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
