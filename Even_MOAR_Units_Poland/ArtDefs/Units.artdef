@@ -528,6 +528,37 @@
 													<m_Fields>
 														<m_Values>
 															<Element class="AssetObjects::StringValue">
+																<m_Value text="WeaponPrimary"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Spears/Knight/Mediterranean/Knight_European_Lance_B"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Weapon1"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
 																<m_Value text="WeaponSecondary"/>
 																<m_ParamName text="Point"/>
 															</Element>
@@ -752,7 +783,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Rifles/Redcoat"/>
+																<m_Name text="Rifles/Cossack"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
@@ -783,7 +814,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Hats/Cossack"/>
+																<m_Name text="Hats/Cossack/#/Cossack_HelmC"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>

@@ -18,6 +18,8 @@
 	</Dependencies>
     <Files>
         <File>Even_MOAR_Units_Poland.dep</File>
+        <File>Config/MOAR_Units_Poland_Icons_Config.xml</File>
+        <File>Config/MOAR_Units_Poland_Config.xml</File>
         <File>Data/Even_MOAR_Units_Poland_Data.xml</File>
 		<File>Data/Even_MOAR_Units_Poland_Data.sql</File>
         <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
