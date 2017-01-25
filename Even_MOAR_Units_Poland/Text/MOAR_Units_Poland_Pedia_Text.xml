@@ -2,10 +2,10 @@
 <GameData>
 	<BaseGameText>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_1">
-			<Text></Text>
+			<Text>Chosen Infantry also known as piechota łanowa (łan's infantry) was a type of an infantry formation in the Polish–Lithuanian Commonwealth. Formed in 1578. Consisted of "royal" peasants (one from every 20 łans) from not charged (not under frequent lien, etc.) and revendicated royal lands.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_1">
-			<Text></Text>
+			<Text>Uhlans were Polish light cavalry armed with lances, sabres and pistols. The title was later used by lancer regiments in the Russian, Prussian, and Austrian armies. Uhlans typically wore a double-breasted jacket (kurtka) with a coloured panel (plastron) at the front, a coloured sash, and a square-topped Polish lancer cap (rogatywka, also called czapka). This cap or cavalry helmet was derived from a traditional design of Polish cap, made more formal and stylised for military use. Their lances usually had small, swallow-tailed flags (known as the lance pennon) just below the spearhead.</Text>
 		</Row>
 	</BaseGameText>
 </GameData>
