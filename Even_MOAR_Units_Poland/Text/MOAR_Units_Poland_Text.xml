@@ -13,5 +13,20 @@
 		<Replace Tag="LOC_UNIT_UHLAN_DESCRIPTION" Language="en_US">
 			<Text>Polish unique Light Cavalry unit that replaces Cavalry. +100% flanking bonus.</Text>
 		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION">
+			<Text>Your light and heavy cavalry units have +5 [ICON_Strength] Strength when fighting on hill tiles. May build Janissary unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION">
+			<Text>Your Apostle units can choose from any possible promotion instead of receiving a random promotion. May build Janissary unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JANISSARY_NAME" Language="en_US">
+			<Text>Janissary</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JANISSARY_DESCRIPTION" Language="en_US">
+			<Text>Renaissance era melee unit that can be built by the Suzerain of Preslav or Yerevan. Heals when destroying an enemy unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_JANISSARY_NAME" Language="en_US">
+			<Text>Devshirme</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
