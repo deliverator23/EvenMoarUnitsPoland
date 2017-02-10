@@ -29,7 +29,8 @@
 		<Row UnitType="UNIT_JANISSARY" BaseMoves="2" Cost="240" AdvisorType="ADVISOR_CONQUEST"
 			 BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
 			 Name="LOC_UNIT_JANISSARY_NAME" Description="LOC_UNIT_JANISSARY_DESCRIPTION" PurchaseYield="YIELD_GOLD"
-			 PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="55" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_JANISSARY"/>
+			 PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="55" PrereqTech="TECH_GUNPOWDER"
+			 StrategicResource="RESOURCE_JANISSARY" TraitType="TRAIT_CIVILIZATION_FULL_CIV"/>
 	</Units>
 	<Resources>
 		<Row ResourceType="RESOURCE_JANISSARY" Name="LOC_RESOURCE_JANISSARY_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="0"/>
@@ -37,6 +38,7 @@
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_POLAND" TraitType="TRAIT_CIVILIZATION_UNIT_CHOSEN_INFANTRY"/>
 		<Row CivilizationType="CIVILIZATION_POLAND" TraitType="TRAIT_CIVILIZATION_UNIT_UHLAN"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" TraitType="TRAIT_CIVILIZATION_FULL_CIV"/>
 	</CivilizationTraits>
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_CHOSEN_INFANTRY" Name="LOC_UNIT_CHOSEN_INFANTRY_NAME"/>
