@@ -18,4 +18,12 @@
             </ArtDefDependencyPaths>
         </Element>
     </SystemDependencies>
+    <LibraryDependencies>
+        <Element>
+            <LibraryName text="UITexture"/>
+            <PackageDependencies>
+                <Element text="UI/Icons.blp"/>
+            </PackageDependencies>
+        </Element>
+    </LibraryDependencies>
 </AssetObjects::GameDependencyData>
