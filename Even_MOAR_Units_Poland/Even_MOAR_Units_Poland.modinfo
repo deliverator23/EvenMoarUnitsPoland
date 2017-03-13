@@ -3,6 +3,28 @@
     <Properties>
         <Name>Even Moar Units! Poland</Name>
         <Teaser>Adds Chosen Infantry and Uhlan units to Poland.</Teaser>
+        <Description>Two new units for Poland. Requires Poland DLC and Moar Units.
+
+Chosen Infantry
+Unique Melee unit that replaces Musketman. Heals an additional 10 points per turn.
+
+Uhlan
+Unique Light Cavalry unit that replaces Cavalry. +100% flanking bonus.
+
+Other Changes:
+* Makes Janissary unit available when you are the Suzerain of Preslav or Yerevan (via the new Devshirme strategic resource).
+* Janissary is the same as Musketman but heals after combat Victory
+
+<!-- NOTE!
+
+To add a font icon for the Devshirme resource, locate the core game file ..\Sid Meier's Civilization VI\Base\Assets\UI\FontIcons.xml and add the following line:
+<Icon Name="RESOURCE_JANISSARY" Start="88,242" Size="22,22" Advance="22" Baseline="0,6"/>
+
+-->
+
+Credits
+Icon Art by @janboruta</Description>
+        <Authors>Deliverator</Authors>
     </Properties>
 	<Dependencies>
 		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="PolandDLC" />
