@@ -101,7 +101,7 @@
 	</UnitAbilityModifiers>
 	<TraitModifiers>
 		<Row TraitType="MINOR_CIV_PRESLAV_TRAIT" ModifierId="MINOR_CIV_JANISSARY_BONUS"/>
-		<Row TraitType="MINOR_CIV_HATTUSA_TRAIT" ModifierId="MINOR_CIV_JANISSARY_BONUS"/>
+		<Row TraitType="MINOR_CIV_YEREVAN_TRAIT" ModifierId="MINOR_CIV_JANISSARY_BONUS"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>

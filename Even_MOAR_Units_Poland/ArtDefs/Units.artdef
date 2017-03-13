@@ -10,7 +10,8 @@
 	<m_RootCollections>
 		<Element>
 			<m_CollectionName text="Units"/>
-<Element>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
@@ -22,7 +23,7 @@
 							<m_ParamName text="Formation"/>
 						</Element>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="HoldFormation_Mid"/>
+							<m_ElementName text="Knight"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -86,6 +87,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -109,144 +111,29 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::StringValue">
-										<m_Value text="Coassack"/>
+										<m_Value text="Horseman"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="COASSACK"/>
+							<m_Name text="HORSEMAN"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_UHLAN"/>
-			</Element>
-<Element>
-				<m_Fields>
-					<m_Values>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Redcoat"/>
-							<m_RootCollectionName text="UnitFormationTypes"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="Formation"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Redcoat"/>
-							<m_RootCollectionName text="UnitCombat"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="UnitCombat"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="UnitFormationTypes"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="EscortFormation"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
-							<m_RootCollectionName text="Units"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text="Units"/>
-							<m_ParamName text="EmbarkedUnit"/>
-						</Element>
-						<Element class="AssetObjects::BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="DoNotDisplayCharges"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="UnitCulture"/>
-							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="Culture"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="Era"/>
-							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="Era"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="Units"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="ProxyUnit"/>
-						</Element>
-						<Element class="AssetObjects::BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="PlayDeathOnDestroy"/>
-						</Element>
-						<Element class="AssetObjects::IntValue">
-							<m_nValue>0</m_nValue>
-							<m_ParamName text="DisplayLevel"/>
-						</Element>
-					</m_Values>
-				</m_Fields>
-				<m_ChildCollections>
-					<Element>
-						<m_CollectionName text="Members"/>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects::FloatValue">
-										<m_fValue>1.000000</m_fValue>
-										<m_ParamName text="Scale"/>
-									</Element>
-									<Element class="AssetObjects::IntValue">
-										<m_nValue>4</m_nValue>
-										<m_ParamName text="Count"/>
-									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="UnitMember_ChosenInfantry"/>
-										<m_RootCollectionName text="UnitMemberTypes"/>
-										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Type"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Redcoat"/>
-						</Element>
-					</Element>
-					<Element>
-						<m_CollectionName text="Audio"/>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects::StringValue">
-										<m_Value text="RedCoats"/>
-										<m_ParamName text="XrefName"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="ENGLISH_REDCOAT"/>
-						</Element>
-					</Element>
-				</m_ChildCollections>
-				<m_Name text="UNIT_CHOSEN_INFANTRY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -324,6 +211,131 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects::IntValue">
+										<m_nValue>4</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="UnitMember_ChosenInfantry"/>
+										<m_RootCollectionName text="UnitMemberTypes"/>
+										<m_ArtDefPath text="Units.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Type"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Redcoat"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::StringValue">
+										<m_Value text="RedCoats"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="ENGLISH_REDCOAT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UNIT_CHOSEN_INFANTRY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="Redcoat"/>
+							<m_RootCollectionName text="UnitFormationTypes"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="Formation"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="Redcoat"/>
+							<m_RootCollectionName text="UnitCombat"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="UnitCombat"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text="UnitFormationTypes"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="EscortFormation"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
+							<m_RootCollectionName text="Units"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units"/>
+							<m_ParamName text="EmbarkedUnit"/>
+						</Element>
+						<Element class="AssetObjects::BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="DoNotDisplayCharges"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text="UnitCulture"/>
+							<m_ArtDefPath text="Cultures.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="Culture"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text="Era"/>
+							<m_ArtDefPath text="Eras.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="Era"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text="Units"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="ProxyUnit"/>
+						</Element>
+						<Element class="AssetObjects::BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="PlayDeathOnDestroy"/>
+						</Element>
+						<Element class="AssetObjects::IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="DisplayLevel"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -352,6 +364,7 @@
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -446,6 +459,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -458,11 +472,11 @@
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="Janissary"/>
+										<m_ElementName text=""/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Units"/>
+										<m_TemplateName text=""/>
 										<m_ParamName text="Type"/>
 									</Element>
 								</m_Values>
@@ -474,6 +488,7 @@
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -495,7 +510,8 @@
 		</Element>
 		<Element>
 			<m_CollectionName text="UnitMemberTypes"/>
-<Element>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
@@ -507,7 +523,7 @@
 							<m_ParamName text="Movement"/>
 						</Element>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="CavalryCombat"/>
+							<m_ElementName text="KnightCombat"/>
 							<m_RootCollectionName text="MemberCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -539,6 +555,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Cultures"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values/>
@@ -546,6 +563,7 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
@@ -562,6 +580,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
+												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -570,9 +589,9 @@
 																<m_ParamName text="Point"/>
 															</Element>
 															<Element class="AssetObjects::ArtDefReferenceValue">
-																<m_ElementName text="Color_300_Hoplite"/>
+																<m_ElementName text=""/>
 																<m_RootCollectionName text="UnitTintTypes"/>
-																<m_ArtDefPath text="Units.artdef"/>
+																<m_ArtDefPath text=""/>
 																<m_CollectionIsLocked>true</m_CollectionIsLocked>
 																<m_TemplateName text=""/>
 																<m_ParamName text="Tint"/>
@@ -582,16 +601,19 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Armor_Horse/Cavalry"/>
+																<m_Name text="Armor_Horse/Lancer"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Armor"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -613,16 +635,19 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
 																<m_Name text="Animals/Horse_Medium"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Body"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -644,16 +669,19 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
 																<m_Name text="V:Rider"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Rider"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -675,20 +703,24 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
 																<m_Name text="Accessories_Horse/Tails"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Tail"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 											</Element>
 										</m_ChildCollections>
 										<m_Name text="Horse"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 									</Element>
 									<Element>
 										<m_Fields>
@@ -706,6 +738,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
+												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -726,16 +759,19 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Armor/Cavalry"/>
+																<m_Name text="Armor/Lancer"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Armor"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -757,16 +793,19 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																	<m_Name text="Hats/GardeImperial"/>
+																<m_Name text="Hats/GardeImperial"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Hats"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -788,47 +827,19 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
 																<m_Name text="Spears/Knight/Mediterranean/Knight_European_Lance_B"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Weapon1"/>
-												</Element>
-												<Element>
-													<m_Fields>
-														<m_Values>
-															<Element class="AssetObjects::StringValue">
-																<m_Value text="WeaponSecondary"/>
-																<m_ParamName text="Point"/>
-															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
-																<m_ElementName text=""/>
-																<m_RootCollectionName text="UnitTintTypes"/>
-																<m_ArtDefPath text=""/>
-																<m_CollectionIsLocked>true</m_CollectionIsLocked>
-																<m_TemplateName text=""/>
-																<m_ParamName text="Tint"/>
-															</Element>
-														</m_Values>
-													</m_Fields>
-													<m_ChildCollections>
-														<Element>
-															<m_CollectionName text="Bins"/>
-															<Element>
-																<m_Fields>
-																	<m_Values/>
-																</m_Fields>
-																<m_ChildCollections/>
-																<m_Name text="Pistols/FieldCrew"/>
-															</Element>
-														</Element>
-													</m_ChildCollections>
-													<m_Name text="Weapon2"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -850,16 +861,19 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
 																<m_Name text="Bodies/Male_MediumBody_Hands"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Body"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -881,30 +895,36 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
 																<m_Name text="Heads/Male"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Head"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 											</Element>
 										</m_ChildCollections>
 										<m_Name text="Rider"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 									</Element>
 								</Element>
 							</m_ChildCollections>
 							<m_Name text="Any"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UnitMember_Uhlan"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
-<Element>
+			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
@@ -948,6 +968,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Cultures"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values/>
@@ -955,6 +976,7 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
@@ -971,6 +993,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
+												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -991,16 +1014,19 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
 																<m_Name text="Armor/Redcoat"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Armor"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -1022,16 +1048,19 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
 																<m_Name text="Rifles/Cossack"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Weapon"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -1053,16 +1082,19 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
 																<m_Name text="Hats/Cossack/#/Cossack_HelmC"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Hat"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -1084,16 +1116,19 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
 																<m_Name text="Bodies/Male_MediumBody_Hands"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Body"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -1115,28 +1150,34 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
 																<m_Name text="Heads/Male"/>
+																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Head"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 											</Element>
 										</m_ChildCollections>
 										<m_Name text="A"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 									</Element>
 								</Element>
 							</m_ChildCollections>
 							<m_Name text="Any"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UnitMember_ChosenInfantry"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -1182,6 +1223,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Cultures"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values/>
@@ -1189,6 +1231,7 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
@@ -1205,6 +1248,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
+												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -1225,6 +1269,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -1258,6 +1303,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -1291,6 +1337,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -1324,6 +1371,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -1357,6 +1405,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
+															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -1388,44 +1437,49 @@
 		</Element>
 		<Element>
 			<m_CollectionName text="UnitTintTypes"/>
-<Element>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
 				<m_Fields>
 					<m_Values/>
 				</m_Fields>
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Colors"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::RGBValue">
-										<m_r>99</m_r>
-										<m_g>143</m_g>
-										<m_b>191</m_b>
+										<m_r>99.000000</m_r>
+										<m_g>143.000000</m_g>
+										<m_b>191.000000</m_b>
 										<m_ParamName text="Color"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="UhlanBlue"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::RGBValue">
-										<m_r>232</m_r>
-										<m_g>184</m_g>
-										<m_b>99</m_b>
+										<m_r>232.000000</m_r>
+										<m_g>184.000000</m_g>
+										<m_b>99.000000</m_b>
 										<m_ParamName text="Color"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="UhlanYellow"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="Color_Uhlan"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -1434,24 +1488,67 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Colors"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::RGBValue">
-										<m_r>99</m_r>
-										<m_g>143</m_g>
-										<m_b>191</m_b>
+										<m_r>99.000000</m_r>
+										<m_g>143.000000</m_g>
+										<m_b>191.000000</m_b>
 										<m_ParamName text="Color"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="ChosenBlue"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="Color_ChosenInfantry"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="UnitMovementTypes"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="UnitFormationTypes"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="MemberCombat"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="UnitCombat"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="CombatAttack"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="UnitFormationLayoutTypes"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="CombatFormation"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="UnitDomainTypes"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="UnitAttachmentBins"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="UnitGlobals"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 		</Element>
 	</m_RootCollections>
 </AssetObjects::ArtDefSet>
