@@ -472,11 +472,11 @@
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text=""/>
+										<m_ElementName text="Janissary"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
 								</m_Values>
