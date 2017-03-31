@@ -37,6 +37,7 @@ Icon Art by @janboruta</Description>
         <UpdateText id="MOAR_Poland_SETTING_TEXT">
             <File>Text/en_US/MOAR_Units_Poland_Text.xml</File>
             <File>Text/ru_RU/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
         </UpdateText>
         <UpdateIcons id="MOAR_Poland_ICON_SETTING">
             <File>Config/MOAR_Units_Poland_Icons_Config.xml</File>
@@ -60,6 +61,8 @@ Icon Art by @janboruta</Description>
             <File>Text/en_US/MOAR_Units_Poland_Pedia_Text.xml</File>
             <File>Text/ru_RU/MOAR_Units_Poland_Text.xml</File>
             <File>Text/ru_RU/MOAR_Units_Poland_Pedia_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Poland_Pedia_Text.xml</File>
         </UpdateText>
         <UpdateIcons id="MOAR_Poland_Icons">
             <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
@@ -69,7 +72,7 @@ Icon Art by @janboruta</Description>
         </UpdateArt>
     </InGameActions>
     <Files>
-    <File>ArtDefs/Units.artdef</File>
+        <File>ArtDefs/Units.artdef</File>
         <File>ArtDefs/Unit_Bins.artdef</File>
         <File>Even_MOAR_Units_Poland.dep</File>
         <File>Config/MOAR_Units_Poland_Icons_Config.xml</File>
@@ -77,8 +80,15 @@ Icon Art by @janboruta</Description>
         <File>Data/Even_MOAR_Units_Poland_Data.xml</File>
         <File>Data/Even_MOAR_Units_Poland_Data.sql</File>
         <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
-        <File>Text/MOAR_Units_Poland_Pedia_Text.xml</File>
-        <File>Text/MOAR_Units_Poland_Text.xml</File>
+
+        <!-- Text -->
+        <File>Text/en_US/MOAR_Units_Poland_Text.xml</File>
+        <File>Text/en_US/MOAR_Units_Poland_Pedia_Text.xml</File>
+        <File>Text/ru_RU/MOAR_Units_Poland_Text.xml</File>
+        <File>Text/ru_RU/MOAR_Units_Poland_Pedia_Text.xml</File>
+        <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
+        <File>Text/zh_Hans_CN/MOAR_Units_Poland_Pedia_Text.xml</File>
+
         <File>Art/Icons/MOARUnitsFlagsPOLAND_22.dds</File>
         <File>Art/Icons/MOARUnitsFlagsPOLAND_32.dds</File>
         <File>Art/Icons/MOARUnitsFlagsPOLAND_38.dds</File>
