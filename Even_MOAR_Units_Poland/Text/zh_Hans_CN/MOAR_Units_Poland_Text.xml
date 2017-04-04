@@ -23,7 +23,7 @@
 			<Text>苏丹亲兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JANISSARY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>文艺复兴时代特色步兵单位,当成为埃里温和斯拉夫宗主国时即可招募,消灭单位后可恢复生命值。</Text>
+			<Text>文艺复兴时代特色步兵单位,当成为埃里温和普雷斯拉夫宗主国时即可招募,消灭单位后可恢复生命值。</Text>
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_JANISSARY_NAME" Language="zh_Hans_CN">
 			<Text>血税兵源</Text>
