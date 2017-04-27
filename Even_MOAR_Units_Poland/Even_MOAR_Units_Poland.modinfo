@@ -44,6 +44,7 @@ Icon Art by @janboruta</Description>
         </UpdateDatabase>
         <UpdateText id="MOAR_Poland_SETTING_TEXT">
             <File>Text/en_US/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/de_DE/MOAR_Units_Poland_Text.xml</File>
             <File>Text/ru_RU/MOAR_Units_Poland_Text.xml</File>
             <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
         </UpdateText>
@@ -67,6 +68,8 @@ Icon Art by @janboruta</Description>
         <UpdateText id="MOAR_Poland_LocalizedText">
             <File>Text/en_US/MOAR_Units_Poland_Text.xml</File>
             <File>Text/en_US/MOAR_Units_Poland_Pedia_Text.xml</File>
+            <File>Text/de_DE/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/de_DE/MOAR_Units_Poland_Pedia_Text.xml</File>
             <File>Text/ru_RU/MOAR_Units_Poland_Text.xml</File>
             <File>Text/ru_RU/MOAR_Units_Poland_Pedia_Text.xml</File>
             <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
@@ -92,6 +95,8 @@ Icon Art by @janboruta</Description>
         <!-- Text -->
         <File>Text/en_US/MOAR_Units_Poland_Text.xml</File>
         <File>Text/en_US/MOAR_Units_Poland_Pedia_Text.xml</File>
+        <File>Text/de_DE/MOAR_Units_Poland_Text.xml</File>
+        <File>Text/de_DE/MOAR_Units_Poland_Pedia_Text.xml</File>
         <File>Text/ru_RU/MOAR_Units_Poland_Text.xml</File>
         <File>Text/ru_RU/MOAR_Units_Poland_Pedia_Text.xml</File>
         <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
