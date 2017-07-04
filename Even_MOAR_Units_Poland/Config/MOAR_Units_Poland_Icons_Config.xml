@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<GameInfo>
-	<IconDefinitions>
-		<Row Name="ICON_UNIT_CHOSEN_INFANTRY" Atlas="ICON_ATLAS_UNITS" Index="53"/>
-		<Row Name="ICON_UNIT_UHLAN" Atlas="ICON_ATLAS_UNITS" Index="61"/>
-	</IconDefinitions>
-</GameInfo>

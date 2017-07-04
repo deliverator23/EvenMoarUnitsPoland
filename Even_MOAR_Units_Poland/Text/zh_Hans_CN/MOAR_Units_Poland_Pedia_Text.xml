@@ -6,13 +6,19 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
 			<Text>这支部队参与了1577年至1582年间的立沃尼亚战争，之后就走上了下坡路。由于诸多原因造成的招募困难，在整个波兰皇冠领地和立陶宛公国境内，他们的总数始终没有超过2000人。到了17世纪下半叶，整支队伍的人数减少到了1000人。最终在1726年，以赋税代替服役的决议获得通过，彻底终结了这一军事组织形式。</Text>
-		</Row>	
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text></Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>“乌兰”是装备了骑枪、军刀和手枪的波兰轻骑兵。“乌兰”（Uhlan）一词在突厥鞑靼语中的原意为“勇敢的年轻战士”。第一支乌兰骑兵团成立于18世纪20年代的波兰-立陶宛联邦。这一头衔后来也被俄罗斯、普鲁士和奥地利军队用于称呼自己的枪骑兵团。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
 			<Text>乌兰骑兵通常穿着双排扣夹克，使用彩色的马鞍和饰带，头戴方顶枪骑兵帽（Czapka），这种帽子源自波兰帽的传统设计，军用版则更加制式化和正规化。他们的骑枪枪头之下往往附带一面燕尾状的小形旗帜。到了1776年，乌兰骑兵正式接替并继承了翼骑兵的地位和传统，成为了一支“国民骑兵”。</Text>
-		</Row>		
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text></Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JANISSARY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>耶尼切里（苏丹亲兵）在土耳其语中的含义为“新军”，他们是奥斯曼帝国的精锐部队，担任着苏丹的亲兵和近卫。他们与普通奴隶不同，能够获得正规的薪酬，但被禁止结婚和经商，必须全身心效忠于苏丹。</Text>
 		</Row>
