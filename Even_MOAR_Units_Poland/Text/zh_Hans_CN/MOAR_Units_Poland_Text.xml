@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_NAME"  Language="zh_Hans_CN">
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_NAME" Language="zh_Hans_CN">
 			<Text>封邑步兵</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION"  Language="zh_Hans_CN">
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>取代火枪手的波兰特色工业时代步兵单位,每回合治疗生命值额外+10点。</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_UHLAN_NAME"  Language="zh_Hans_CN">
+		<Replace Tag="LOC_UNIT_UHLAN_NAME" Language="zh_Hans_CN">
 			<Text>乌兰</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_UHLAN_DESCRIPTION"  Language="zh_Hans_CN">
+		<Replace Tag="LOC_UNIT_UHLAN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>取代骑兵的波兰特色中世纪骑兵单位,当侧面进攻时+100%侧翼加成</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="zh_Hans_CN">
