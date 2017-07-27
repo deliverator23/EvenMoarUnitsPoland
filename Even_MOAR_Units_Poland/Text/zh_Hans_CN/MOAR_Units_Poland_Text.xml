@@ -5,16 +5,16 @@
 			<Text>封邑步兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>取代火枪手的波兰特色工业时代步兵单位,每回合治疗生命值额外+10点。</Text>
+			<Text>取代火枪手的波兰工业时代特色近战单位,每回合生命值回复额外+10。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UHLAN_NAME" Language="zh_Hans_CN">
 			<Text>乌兰</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UHLAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>取代骑兵的波兰特色中世纪骑兵单位,当侧面进攻时+100%侧翼加成</Text>
+			<Text>取代骑兵的波兰中世纪特色轻骑兵单位,当侧面进攻时+100%侧翼战斗力加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>当战斗在丘陵战斗时轻骑兵和重骑兵单位+5战斗力[ICON_Strength，可以建造禁卫军单位。</Text>
+			<Text>当位于丘陵作战时轻骑兵和重骑兵单位+5战斗力[ICON_Strength，可以建造禁卫军单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>您的使徒单位可以选择任何可用的升级,而不是随机升级,允许招募苏丹亲兵。</Text>
@@ -23,7 +23,7 @@
 			<Text>苏丹亲兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JANISSARY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>文艺复兴时代特色步兵单位,当成为埃里温和普雷斯拉夫宗主国时即可招募,消灭单位后可恢复生命值。</Text>
+			<Text>文艺复兴特色近战单位,当成为“埃里温”与“普雷斯拉夫”的宗主国解锁,消灭单位即可恢复生命值。</Text>
 		</Replace>
 		<Replace Tag="LOC_RESOURCE_JANISSARY_NAME" Language="zh_Hans_CN">
 			<Text>血税兵源</Text>
