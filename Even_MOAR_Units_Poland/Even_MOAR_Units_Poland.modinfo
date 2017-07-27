@@ -62,10 +62,12 @@ Icon Art by @janboruta</Description>
             <File>Art/Icons/MOARUnitsFlagsPOLAND_256.dds</File>
         </ImportFiles>
         <UpdateDatabase id="MOAR_Poland_UpdateDatabase">
+            <Include mod_id="3809975F-263F-40A2-A747-8BFB171D821A" action_id="PolandJadwigaGameplay" required="1" />
             <File>Data/Even_MOAR_Units_Poland_Data.xml</File>
             <File>Data/Even_MOAR_Units_Poland_Data.sql</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_Poland_LocalizedText">
+            <Include mod_id="3809975F-263F-40A2-A747-8BFB171D821A" action_id="PolandJadwigaText" required="1" />
             <File>Text/en_US/MOAR_Units_Poland_Text.xml</File>
             <File>Text/en_US/MOAR_Units_Poland_Pedia_Text.xml</File>
             <File>Text/de_DE/MOAR_Units_Poland_Text.xml</File>
@@ -76,9 +78,11 @@ Icon Art by @janboruta</Description>
             <File>Text/zh_Hans_CN/MOAR_Units_Poland_Pedia_Text.xml</File>
         </UpdateText>
         <UpdateIcons id="MOAR_Poland_Icons">
+            <Include mod_id="3809975F-263F-40A2-A747-8BFB171D821A" action_id="PolandJadwigaIcons" required="1" />
             <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
         </UpdateIcons>
         <UpdateArt id="MOAR_Poland_ModArt">
+            <Include mod_id="3809975F-263F-40A2-A747-8BFB171D821A" action_id="PolandJadwigaArt" required="1" />
             <File>Even_MOAR_Units_Poland.dep</File>
         </UpdateArt>
     </InGameActions>
