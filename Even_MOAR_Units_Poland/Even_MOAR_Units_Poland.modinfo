@@ -63,8 +63,9 @@ Icon Art by @janboruta</Description>
             <File>Art/Icons/MOARUnitsFlagsPOLAND_256.dds</File>
         </ImportFiles>
         <UpdateDatabase id="MOAR_Poland_UpdateDatabase">
-            <Include mod_id="8342b98d-80c7-4002-87bb-419646bd9b54" action_id="MOAR_UpdateDatabase"/>
-            <Include mod_id="3809975F-263F-40A2-A747-8BFB171D821A" action_id="PolandJadwigaGameplay"/>
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
             <File>Data/Even_MOAR_Units_Poland_Data.xml</File>
             <File>Data/Even_MOAR_Units_Poland_Data.sql</File>
         </UpdateDatabase>
