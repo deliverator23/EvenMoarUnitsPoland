@@ -63,6 +63,9 @@ Icon Art by @janboruta</Description>
             <File>Data/Even_MOAR_Units_Poland_Data.sql</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_Poland_LocalizedText">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
             <Include mod_id="3809975F-263F-40A2-A747-8BFB171D821A" action_id="PolandJadwigaText"/>
             <File>Text/en_US/MOAR_Units_Poland_Text.xml</File>
             <File>Text/en_US/MOAR_Units_Poland_Pedia_Text.xml</File>
