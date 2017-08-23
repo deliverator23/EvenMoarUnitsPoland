@@ -41,6 +41,7 @@ Icon Art by @janboruta</Description>
             <File>Text/de_DE/MOAR_Units_Poland_Text.xml</File>
             <File>Text/ru_RU/MOAR_Units_Poland_Text.xml</File>
             <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/it_IT/MOAR_Units_Poland_Text.xml</File>
         </UpdateText>
         <UpdateIcons id="MOAR_Poland_Icons">
             <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
@@ -77,6 +78,7 @@ Icon Art by @janboruta</Description>
             <File>Text/ru_RU/MOAR_Units_Poland_Pedia_Text.xml</File>
             <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
             <File>Text/zh_Hans_CN/MOAR_Units_Poland_Pedia_Text.xml</File>
+            <File>Text/it_IT/MOAR_Units_Poland_Text.xml</File>
         </UpdateText>
         <UpdateIcons id="MOAR_Poland_Icons">
             <Include mod_id="3809975F-263F-40A2-A747-8BFB171D821A" action_id="PolandJadwigaIcons"/>
@@ -108,6 +110,7 @@ Icon Art by @janboruta</Description>
         <File>Text/ru_RU/MOAR_Units_Poland_Pedia_Text.xml</File>
         <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
         <File>Text/zh_Hans_CN/MOAR_Units_Poland_Pedia_Text.xml</File>
+        <File>Text/it_IT/MOAR_Units_Poland_Text.xml</File>
 
         <File>Art/Icons/MOARUnitsFlagsPOLAND_22.dds</File>
         <File>Art/Icons/MOARUnitsFlagsPOLAND_32.dds</File>
