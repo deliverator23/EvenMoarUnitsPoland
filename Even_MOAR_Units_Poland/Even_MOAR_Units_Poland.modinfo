@@ -24,14 +24,6 @@ Icon Art by @janboruta</Description>
         <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MOARUnits" />
 	</Dependencies>
     <FrontEndActions>
-        <ImportFiles id="MOAR_Poland_FileImport">
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_22.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_32.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_38.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_50.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_80.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_256.dds</File>
-        </ImportFiles>
         <UpdateDatabase id="MOAR_Poland_SETTING">
             <File>Config/MOAR_Units_Poland_Config.xml</File>
         </UpdateDatabase>
@@ -48,14 +40,6 @@ Icon Art by @janboruta</Description>
         </UpdateIcons>
     </FrontEndActions>
     <InGameActions>
-        <ImportFiles id="MOAR_Poland_FileImport">
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_22.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_32.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_38.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_50.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_80.dds</File>
-            <File>Art/Icons/MOARUnitsFlagsPOLAND_256.dds</File>
-        </ImportFiles>
         <UpdateDatabase id="MOAR_Poland_UpdateDatabase">
             <Properties>
                 <LoadOrder>10</LoadOrder>
@@ -112,12 +96,6 @@ Icon Art by @janboruta</Description>
         <File>Text/zh_Hans_CN/MOAR_Units_Poland_Pedia_Text.xml</File>
         <File>Text/it_IT/MOAR_Units_Poland_Text.xml</File>
 
-        <File>Art/Icons/MOARUnitsFlagsPOLAND_22.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsPOLAND_32.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsPOLAND_38.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsPOLAND_50.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsPOLAND_80.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsPOLAND_256.dds</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_ReactA</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_SpawnA</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
