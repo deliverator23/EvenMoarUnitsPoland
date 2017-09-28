@@ -35,7 +35,7 @@ Icon Art by @janboruta</Description>
             <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
             <File>Text/it_IT/MOAR_Units_Poland_Text.xml</File>
         </UpdateText>
-        <UpdateIcons id="MOAR_Poland_Icons">
+        <UpdateIcons id="MOAR_Poland_Setting_Icons">
             <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
         </UpdateIcons>
     </FrontEndActions>
