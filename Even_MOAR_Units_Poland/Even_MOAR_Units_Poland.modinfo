@@ -25,6 +25,9 @@ Icon Art by @janboruta</Description>
 	</Dependencies>
     <FrontEndActions>
         <UpdateDatabase id="MOAR_Poland_SETTING">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
             <File>Config/MOAR_Units_Poland_Config.xml</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_Poland_SETTING_TEXT">
@@ -36,6 +39,9 @@ Icon Art by @janboruta</Description>
             <File>Text/it_IT/MOAR_Units_Poland_Text.xml</File>
         </UpdateText>
         <UpdateIcons id="MOAR_Poland_Setting_Icons">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
             <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
         </UpdateIcons>
     </FrontEndActions>
@@ -77,7 +83,6 @@ Icon Art by @janboruta</Description>
         <File>ArtDefs/Units.artdef</File>
         <File>ArtDefs/Unit_Bins.artdef</File>
         <File>Even_MOAR_Units_Poland.dep</File>
-        <File>Config/MOAR_Units_Poland_Icons_Config.xml</File>
         <File>Config/MOAR_Units_Poland_Config.xml</File>
         <File>Data/Even_MOAR_Units_Poland_Data.xml</File>
         <File>Data/Even_MOAR_Units_Poland_Data.sql</File>
